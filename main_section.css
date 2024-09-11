@@ -9,6 +9,7 @@
 	min-height: 50dvh;
 	background-size: cover;
 	gap: 1em;
+    opacity: 80%;
 }
 
 .main_section p {

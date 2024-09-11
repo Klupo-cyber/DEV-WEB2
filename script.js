@@ -1,8 +1,10 @@
 const btn= document.getElementById("btn")
 
-btn.addEventListener("click", (e) =>{
-    e.target.innerHTML = "click"
-} )
+function handleClick(e){
+    e.target.innerHTML = "Bonjour"
+    window.location = "https://www.google.com"
+}
+
 
 const handleClick = () =>{
     console.log("test ...")
