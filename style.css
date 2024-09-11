@@ -1,0 +1,48 @@
+@import "./main_section.css";
+@import "./second_section.css";
+
+
+*{
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+
+}
+
+ul,
+li{
+    list-style: none;
+}
+.header nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+    padding: 1em;
+    background-color: gray;
+
+}
+
+.header img {
+    height: 30% ;
+    width: 30%;
+    
+}
+
+.header ul{
+    display: flex;
+    gap: 1em;
+}
+
+body {
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: rgb(0, 255, 179);
+}
